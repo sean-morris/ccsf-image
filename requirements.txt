@@ -6,7 +6,7 @@ nbgitpuller==1.1.0
 nbconvert==6.5.3
 jupyter-resource-usage==0.6.1
 jupyterlab-link-share==0.2.4
-jupyterhub==2.3.0
+jupyterhub==2.3.1
 appmode==0.8.0
 ipywidgets==7.7.0
 otter-grader==3.3.0
