@@ -3,7 +3,9 @@ notebook==6.4.11
 jupyterlab==3.4.2
 retrolab==0.3.21
 nbgitpuller==1.1.0
+nbconvert==6.5.3
 jupyter-resource-usage==0.6.1
+jupyter-link-share==0.2.4
 jupyterhub==2.3.0
 appmode==0.8.0
 ipywidgets==7.7.0
