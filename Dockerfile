@@ -67,6 +67,7 @@ USER root
 
 # Install mambaforgeas root - the script chowns to $NB_USER by the end
 COPY install-mambaforge.bash /tmp/install-mambaforge.bash
+RUN chmod +x /tmp/install-mambaforge.bash
 RUN /tmp/install-mambaforge.bash
 
 USER ${NB_USER}
