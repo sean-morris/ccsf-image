@@ -1,5 +1,5 @@
 # Freeze this to get exact versions of all dependencies
-notebook==6.4.11
+notebook==6.4.12
 jupyterlab==3.4.2
 retrolab==0.3.21
 nbgitpuller==1.1.0
