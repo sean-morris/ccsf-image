@@ -8,5 +8,6 @@ The configuration for the [2i2c](https://2i2c.org/) and [Cloudbank](https://www.
 
 ## Relevant Documentation
 
+- [repo2docker Documentation](https://repo2docker.readthedocs.io/en/latest/)
 - [2i2c Infrastructure Documentation](https://infrastructure.2i2c.org/en/latest/)
 - [UC Berkeley's DataHub Repo - DATA 8 Focus](https://github.com/berkeley-dsep-infra/datahub)
