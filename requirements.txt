@@ -1,0 +1,17 @@
+# Freeze this to get exact versions of all dependencies
+notebook==6.4.11
+jupyterlab==3.4.2
+retrolab==0.3.21
+nbgitpuller==1.1.0
+jupyter-resource-usage==0.6.1
+jupyterhub==2.3.0
+appmode==0.8.0
+ipywidgets==7.7.0
+otter-grader==3.1.4
+jupyter-tree-download==1.0.1
+git-credential-helpers==0.2
+jupyter-contrib-nbextensions==0.5.1
+jupyter_nbextensions_configurator==0.4.1
+RISE==5.7.1
+# syncthing for dropbox-like functionality
+jupyter-syncthing-proxy==1.0.3
