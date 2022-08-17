@@ -1,7 +1,7 @@
 dependencies:
 - nodejs==15.*
 - pip==20.2.*
-- python==3.10.*
+- python==3.9.*
 
 - syncthing==1.18.6
 
