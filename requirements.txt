@@ -9,6 +9,7 @@ jupyter-tree-download==1.0.1
 jupyter-contrib-nbextensions==0.5.1
 jupyter_nbextensions_configurator==0.4.1
 jupyterlab-spellchecker==0.7.2
+jupyterlab-link-share==0.2.4
 
 nbgitpuller==1.1.*
 nbconvert==7.2.*
