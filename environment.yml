@@ -13,4 +13,4 @@ dependencies:
   - folium==0.12.1
   - datascience==0.17.5
   - otter_grader==4.2.*
-  - babypandas 0.1.7
+  - babypandas==0.1.7
