@@ -1,23 +1,16 @@
 dependencies:
-- nodejs==15.*
-- pip==20.2.*
+- nodejs==16.*
+- pip==22.2.*
 - python==3.10.*
-
-- syncthing==1.18.6
-
-- matplotlib==3.5.3
-- ipympl==0.7.0
-- pandas==1.4.3
-- scipy==1.9.0
-- statsmodels==0.13.2
-- seaborn==0.11.2
-
-# Items not in conda forge
+- matplotlib==3.6.*
+- ipympl==0.9.*
+- pandas==1.5.1
+- scipy==1.9.*
+- statsmodels==0.13.*
+- seaborn==0.12.*
 - pip:
-# Export notebooks as PDFs with Chrome
   - notebook-as-pdf==0.5.0
-# Conda only has 0.12.0
   - folium==0.12.1
-  - okpy==1.18.1
   - datascience==0.17.5
-  - otter_grader==3.3.0
+  - otter_grader==4.2.*
+  - babypandas 0.1.7
