@@ -1,6 +1,6 @@
-jupyterhub==2.3.1
-notebook==6.4.12
-jupyterlab==3.4.5
+jupyterhub==3.0.*
+notebook==6.5.*
+jupyterlab==3.5.*
 retrolab==0.3.21
 
 jupyter-resource-usage==0.6.1
@@ -10,11 +10,10 @@ jupyter-contrib-nbextensions==0.5.1
 jupyter_nbextensions_configurator==0.4.1
 jupyterlab-spellchecker==0.7.2
 
-nbgitpuller==1.1.0
-nbconvert==6.5.3
-ipywidgets==7.7.0
+nbgitpuller==1.1.*
+nbconvert==7.2.*
+ipywidgets==8.0.*
 
 git-credential-helpers==0.2
 
-otter-grader==3.3.0
 RISE==5.7.1
