@@ -1,7 +1,6 @@
 jupyterhub==3.0.*
 notebook==6.5.*
 jupyterlab==3.5.*
-retrolab==0.3.21
 
 jupyter-resource-usage==0.6.1
 jupyter-syncthing-proxy==1.0.3
