@@ -1,4 +1,4 @@
-jupyterhub==3.0.*
+jupyterhub==3.1.*
 notebook==6.5.*
 jupyterlab==3.5.*
 
@@ -7,8 +7,11 @@ jupyter-syncthing-proxy==1.0.3
 jupyter-tree-download==1.0.1
 jupyter-contrib-nbextensions==0.5.1
 jupyter_nbextensions_configurator==0.4.1
+jupyterlab-topbar-extension
 jupyterlab-spellchecker==0.7.2
 jupyterlab-link-share==0.2.4
+jupyterlab-drawio==0.9.0
+jupyterlab-kite==2.0.2
 
 nbgitpuller==1.1.*
 nbconvert==7.2.*
