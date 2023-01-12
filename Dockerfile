@@ -15,12 +15,18 @@ ENV NB_UID 1000
 
 RUN adduser --disabled-password --gecos "Default Jupyter user" ${NB_USER}
 
+# Create user owned R libs dir
+# This lets users temporarily install packages
+ENV R_LIBS_USER /opt/r
+RUN install -d -o ${NB_USER} -g ${NB_USER} ${R_LIBS_USER}
+
 RUN apt-get -qq update --yes && \
     apt-get -qq install --yes \
             tar \
             vim \
             micro \
             mc \
+            tini \
             build-essential \
             locales > /dev/null
 
@@ -66,7 +72,6 @@ USER root
 
 # Install mambaforgeas root - the script chowns to $NB_USER by the end
 COPY install-mambaforge.bash /tmp/install-mambaforge.bash
-RUN chmod +x /tmp/install-mambaforge.bash
 RUN /tmp/install-mambaforge.bash
 
 USER ${NB_USER}
@@ -75,11 +80,17 @@ COPY environment.yml /tmp/environment.yml
 
 RUN mamba env update -p ${CONDA_DIR} -f /tmp/environment.yml && mamba clean -afy
 
-COPY requirements.txt /tmp/requirements.txt
-RUN pip install --no-cache -r /tmp/requirements.txt
+COPY infra-requirements.txt /tmp/infra-requirements.txt
+RUN pip install --no-cache -r /tmp/infra-requirements.txt
 
 # Set up notebook-as-pdf dependencies
 ENV PYPPETEER_HOME ${CONDA_DIR}
 RUN pyppeteer-install
 
 EXPOSE 8888
+
+# Temporarily install newer version of jupyterlab-link-share
+# Move this back to just installing off infra-requirements once we are a bit stable
+RUN pip install -U jupyterlab-link-share==0.2.4
+
+ENTRYPOINT ["tini", "--"]
