@@ -4,13 +4,15 @@ dependencies:
 - python==3.10.*
 - matplotlib==3.6.*
 - ipympl==0.9.*
-- pandas==1.5.1
+- pandas==1.5.*
+- requests==2.28.*
 - scipy==1.9.*
 - statsmodels==0.13.*
 - seaborn==0.12.*
+- syncthing==1.18.*
 - pip:
   - notebook-as-pdf==0.5.0
   - folium==0.12.1
-  - datascience==0.17.5
+  - datascience==0.17.*
   - otter_grader==4.2.*
-  - babypandas==0.1.7
+  - babypandas==0.1.*
