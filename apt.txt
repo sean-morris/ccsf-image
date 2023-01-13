@@ -1,0 +1,15 @@
+pandoc
+texlive-fonts-recommended
+texlive-plain-generic
+texlive-generic-recommended
+texlive-latex-base
+texlive-latex-extra
+texlive-latex-recommended
+texlive-lang-all
+texlive-publishers
+texlive-science
+texlive-xetex
+
+fonts-noto-color-emoji
+
+libasound2
