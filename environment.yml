@@ -18,7 +18,7 @@ dependencies:
 - jupyterlab-link-share==0.2.4
 - pip:
   - notebook-as-pdf==0.5.0
-  - folium==0.12.1
+  - folium==0.12.0
   - datascience==0.17.6
   - otter_grader==4.2.1
   - babypandas==0.1.7
