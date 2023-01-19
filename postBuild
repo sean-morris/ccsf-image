@@ -1,5 +1,4 @@
 set -e
 
 pyppeteer-install
-jupyter labextension install jupyterlab-spellchecker jupyterlab-drawio jupyterlab-link-share jupyterlab_voyager @mflevine/jupyterlab_html
 jupyter serverextension enable --py nbgitpuller --sys-prefix
