@@ -1,6 +1,6 @@
-jupyterhub==3.1.*
-notebook==6.5.*
-jupyterlab==3.5.*
+jupyterhub==3.1.0
+notebook==6.5.2
+jupyterlab==3.5.2
 
 jupyter-resource-usage==0.6.1
 jupyter-syncthing-proxy==1.0.3
@@ -11,9 +11,9 @@ jupyterlab-spellchecker==0.7.2
 jupyterlab-link-share==0.2.4
 jupyterlab-drawio==0.9.0
 
-nbgitpuller==1.1.*
-nbconvert==7.2.*
-ipywidgets==8.0.*
+nbgitpuller==1.1.1
+nbconvert==7.2.8
+ipywidgets==8.0.4
 
 git-credential-helpers==0.2
 
