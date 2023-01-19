@@ -1,19 +1,21 @@
 dependencies:
-- nodejs==16.*
-- pip==22.2.*
-- python==3.10.*
-- matplotlib==3.6.*
-- ipympl==0.9.*
-- pandas==1.5.*
-- requests==2.28.*
-- scipy==1.9.*
-- statsmodels==0.13.*
-- seaborn==0.12.*
-- syncthing==1.18.*
-- nbgitpuller==1.1.*
+- nodejs==18.12.1
+- pip==22.3.1
+- python==3.10.9
+- matplotlib==3.6.3
+- ipympl==0.9.2
+- pandas==1.5.3
+- requests==2.28.2
+- scipy==1.10.0
+- statsmodels==0.13.5
+- seaborn==0.12.2
+- nbgitpuller==1.1.1
+- jupyterlab==3.5.2
+- notebook==6.5.2
+- jupyterhub==3.1.0
 - pip:
   - notebook-as-pdf==0.5.0
   - folium==0.12.1
-  - datascience==0.17.*
-  - otter_grader==4.2.*
-  - babypandas==0.1.*
+  - datascience==0.17.6
+  - otter_grader==4.2.1
+  - babypandas==0.1.7
