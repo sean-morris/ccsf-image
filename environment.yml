@@ -26,7 +26,7 @@ dependencies:
 - jupyterlab-link-share==0.2.4
 - RISE==5.7.1
 - datascience==0.17.5
-- otter_grader==4.2.1
+- otter-grader==4.2.1
 - folium==0.14.0
 - pip:
   - notebook-as-pdf==0.5.0
