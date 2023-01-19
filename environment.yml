@@ -22,11 +22,11 @@ dependencies:
 - jupyterlab-drawio==0.9.0
 - jupyterlab-link-share==0.2.4
 - RISE==5.7.1
+- datascience==0.17.5
+- otter_grader==4.2.1
+- folium==0.14.0
 - pip:
   - notebook-as-pdf==0.5.0
-  - folium==0.12.0
-  - datascience==0.17.5
-  - otter_grader==4.2.1
   - babypandas==0.1.7
   - jupyter-tree-download==1.0.1
   - jupyter-contrib-nbextensions==0.7.0
