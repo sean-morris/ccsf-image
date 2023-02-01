@@ -9,7 +9,6 @@ texlive-lang-all
 texlive-publishers
 texlive-science
 texlive-xetex
-
 fonts-noto-color-emoji
-
 libasound2
+vim
