@@ -27,7 +27,7 @@ dependencies:
 - jupyterlab-drawio==0.9.0
 - jupyterlab-link-share==0.2.4
 - datascience==0.17.5
-- otter-grader==4.2.1
+- otter-grader==4.3.1
 - folium==0.14.0
 - gh==2.22.0
 - beautifulsoup4==4.11.1
