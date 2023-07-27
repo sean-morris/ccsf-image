@@ -19,8 +19,6 @@ dependencies:
 - notebook==7.0.0
 - jupyterhub==4.0.1
 - jupyter-resource-usage==0.7.1
-- jupyter_contrib_nbextensions==0.7.0
-- jupyter_nbextensions_configurator==0.6.1
 - jupyterlab-spellchecker==0.8.3
 - datascience==0.17.6
 - otter-grader==5.0.1
