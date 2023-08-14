@@ -25,5 +25,3 @@ dependencies:
   - jupyterlab==4.0.*
   - notebook==7.0.*
   - jupyterhub==4.0.*
-  - jupyter-tree-download==1.0.1
-  - git-credential-helpers==0.2
