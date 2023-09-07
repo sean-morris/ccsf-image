@@ -13,3 +13,4 @@ fonts-noto-color-emoji
 libasound2
 vim
 zip
+jq
