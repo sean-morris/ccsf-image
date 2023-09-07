@@ -13,6 +13,10 @@ jobs:
     - name: Checkout files in repo
       uses: actions/checkout@main
 
+    - name: Update pip
+      run: |
+        python -m pip install --upgrade pip
+
     - name: Update jupyter dependencies with repo2docker
       uses: jupyterhub/repo2docker-action@master
       with:
