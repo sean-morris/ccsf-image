@@ -25,7 +25,7 @@ dependencies:
   - pip:
     - jupyterlab==4.0.5
     - notebook==7.0.3
-    - jupyterhub==4.0.3
+    - jupyterhub==4.0.2
     - notebook-as-pdf==0.5.0
     - jupyter-tree-download==1.0.1
     - git-credential-helpers==0.2
