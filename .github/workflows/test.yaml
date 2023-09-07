@@ -11,6 +11,10 @@ jobs:
     - name: checkout files in repo
       uses: actions/checkout@main
 
+    - name: Update pip
+      run: |
+        python -m pip install --upgrade pip
+
     - name: update jupyter dependencies with repo2docker
       uses: jupyterhub/repo2docker-action@master
       with: # make sure username & password/token matches your registry
