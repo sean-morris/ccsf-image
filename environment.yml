@@ -31,3 +31,4 @@ dependencies:
     - git-credential-helpers==0.2
     - nbgitpuller==1.2.0
     - jupyter_contrib_nbextensions==0.7.0
+    - tabulate==0.9.0
