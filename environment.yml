@@ -30,3 +30,4 @@ dependencies:
     - nbgitpuller==1.2.0
     - jupyter-resource-usage==1.0.1
     - jupyterlab-spellchecker==0.8.4
+    - jupyter_contrib_nbextensions==0.7.0
