@@ -32,6 +32,7 @@ dependencies:
     - jupyterlab-spellchecker==0.8.4
     - jupyter_contrib_nbextensions==0.7.0
     - jupyterlab_rise==0.42.0
+    - jupyterlab_git==0.50.0
     - jupyter-archive==3.4.0
     - notebook-as-pdf==0.5.0
     - nbconvert==7.14.2
