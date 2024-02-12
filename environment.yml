@@ -26,7 +26,7 @@ dependencies:
     - git-credential-helpers==0.2
     - jupyterhub==4.0.2
     - jupyterlab==4.1.0
-    - notebook==7.0.7
+    - notebook==7.0.8
     - nbgitpuller==1.2.0
     - jupyter-resource-usage==1.0.1
     - jupyterlab-spellchecker==0.8.4
