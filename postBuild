@@ -1,4 +1,3 @@
 set -e
 
-pyppeteer-install
 jupyter server extension enable --sys-prefix nbgitpuller
