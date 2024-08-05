@@ -15,7 +15,7 @@ dependencies:
   - jupyter-resource-usage==1.0.*
   - jupyterlab_rise==0.42.*
   - nbconvert==7.16.*
-  - docker=20.10.*
+  - docker==20.10.*
   # MATH 108 DATA
   - otter-grader==5.5.*
   - datascience==0.17.*
