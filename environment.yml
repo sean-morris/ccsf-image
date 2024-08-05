@@ -15,7 +15,7 @@ dependencies:
   - jupyter-resource-usage==1.0.*
   - jupyterlab_rise==0.42.*
   - nbconvert==7.16.*
-  - docker==20.10.*
+  - docker==20.10.9
   # MATH 108 DATA
   - otter-grader==5.5.*
   - datascience==0.17.*
@@ -41,7 +41,7 @@ dependencies:
   - nodejs==18.20.*
   - jupyter-vscode-proxy==0.6.*
   - code-server==4.23.1
-
+  # Packages not on conda
   - pip:
     - jupyterlab-spellchecker==0.8.*
     - jupyterlab_git==0.50.*
