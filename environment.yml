@@ -16,6 +16,8 @@ dependencies:
   - jupyterlab_rise==0.42.*
   - nbconvert==7.16.*
   - nbconvert[webpdf]
+  - nbconvert[qtpdf]
+  - nbconvert[qtpng]
   # MATH 108 DATA
   - otter-grader==5.5.*
   - datascience==0.17.*
