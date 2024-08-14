@@ -1,3 +1,4 @@
 set -e
 
 jupyter server extension enable --sys-prefix nbgitpuller
+playwright install chromium
