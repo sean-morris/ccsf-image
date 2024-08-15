@@ -4,4 +4,5 @@ set -e
 jupyter server extension enable --sys-prefix nbgitpuller
 playwright install chromium
 
+mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/apputils-extension
 curl -O https://raw.githubusercontent.com/ccsf-math/jupyterhub/main/config/notification.jupyterlab-settings
