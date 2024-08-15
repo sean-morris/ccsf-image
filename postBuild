@@ -1,4 +1,7 @@
+#!/bin/bash
 set -e
 
 jupyter server extension enable --sys-prefix nbgitpuller
 playwright install chromium
+
+curl -O https://raw.githubusercontent.com/ccsf-math/jupyterhub/main/config/notification.jupyterlab-settings
