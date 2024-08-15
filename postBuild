@@ -6,3 +6,6 @@ playwright install chromium
 
 mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/apputils-extension
 curl -O https://raw.githubusercontent.com/ccsf-math/jupyterhub/main/config/notification.jupyterlab-settings
+
+mkdir -p ~/.jupyter/lab/user-settings/@jupyterlab/application-extensio
+curl -0 https://raw.githubusercontent.com/ccsf-math/jupyterhub/main/config/top-bar.jupyterlab-settings
