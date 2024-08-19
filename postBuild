@@ -1,5 +1,5 @@
 #!/bin/bash -l
-set -e
+set -euo pipefail
 
 jupyter server extension enable --sys-prefix nbgitpuller
 playwright install chromium
