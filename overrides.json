@@ -1,20 +1,13 @@
 {
-    "@jupyterlab/application-extension:top-bar": {
-        "toolbar": [
-            {
-                "name": "spacer",
-                "type": "spacer",
-                "rank": 50
-            },
-            {
-                "name": "cpu",
-                "rank": 120
-            },
-            {
-                "name": "memory",
-                "rank": 130
-            }
-        ]
+    "@jupyter-server/resource-usage:topbar-item": {
+        "enable": true,
+        "refreshRate": 5000,
+        "memory": {
+            "label": "Mem: "
+        },
+        "cpu": {
+            "label": "CPU: "
+        }
     },
     "@jupyterlab/apputils-extension:notification": {
         "fetchNews": "false",
