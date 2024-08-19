@@ -22,7 +22,6 @@ dependencies:
   - folium==0.17.*
   - scipy==1.14.*
   - pandas==2.2.*
-  - jupysql==0.10.*
   - scikit-learn==1.5.*
   - scikit-image==0.24.*
   - statsmodels==0.14.*
