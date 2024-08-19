@@ -1,4 +1,8 @@
+#!/bin/bash -l
 set -e
 
 jupyter server extension enable --sys-prefix nbgitpuller
 playwright install chromium
+
+mkdir -p ${NB_PYTHON_PREFIX}/share/jupyter/lab/settings
+cp -p overrides.json ${NB_PYTHON_PREFIX}/share/jupyter/lab/settings
