@@ -1,4 +1,3 @@
-sudo
 pandoc
 texlive-fonts-recommended
 texlive-plain-generic
