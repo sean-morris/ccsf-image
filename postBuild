@@ -4,5 +4,5 @@ set -euo pipefail
 jupyter server extension enable --sys-prefix nbgitpuller
 playwright install chromium
 
-mkdir -p ~/srv/conda/envs/notebook/share/jupyter/lab/settings
-cp -p overrides.json ~/srv/conda/envs/notebook/share/jupyter/lab/settings
+mkdir -p usr/local/share/jupyter/lab/settings
+cp -p overrides.json usr/local/share/jupyter/lab/settings
