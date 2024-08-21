@@ -40,6 +40,24 @@
                 "rank": 1
             },
             {
+                "name": Download HTML",
+                "command": "notebook:export-to-format", 
+                "rank": 6,
+                "args": {
+                    "format": "html",
+                    "label": "Download HTML"
+                }
+            },
+            {
+                "name": Download IPYNB", 
+                "command": "notebook:export-to-format", 
+                "rank": 7,
+                "args": {
+                    "format": "ipynb",
+                    "label": "Download IPYNB"
+                }
+            },
+            {
                 "disabled": true,
                 "id": "jp-mainmenu-git",
                 "label": "Git",
