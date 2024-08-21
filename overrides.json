@@ -33,29 +33,27 @@
                             "id": "jp-mainmenu-file-notebookexport",
                             "label": "Save and Export Notebook As"
                         }
+                    },
+                    {
+                        "command": "notebook:export-to-format", 
+                        "rank": 6,
+                        "args": {
+                            "format": "html",
+                            "label": "Download HTML"
+                        }
+                    },
+                    {
+                        "command": "notebook:export-to-format", 
+                        "rank": 7,
+                        "args": {
+                            "format": "ipynb",
+                            "label": "Download IPYNB"
+                        }
                     }
                 ],
                 "label": "File",
                 "mnemonic": -1,
                 "rank": 1
-            },
-            {
-                "name": "Download HTML",
-                "command": "notebook:export-to-format", 
-                "rank": 6,
-                "args": {
-                    "format": "html",
-                    "label": "Download HTML"
-                }
-            },
-            {
-                "name": "Download IPYNB", 
-                "command": "notebook:export-to-format", 
-                "rank": 7,
-                "args": {
-                    "format": "ipynb",
-                    "label": "Download IPYNB"
-                }
             }
         ]
     }
