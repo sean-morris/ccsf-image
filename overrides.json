@@ -35,8 +35,12 @@
                         }
                     },
                     {
+                        "type": "separator",
+                        "rank": 6
+                    },
+                    {
                         "command": "notebook:export-to-format", 
-                        "rank": 6,
+                        "rank": 7,
                         "args": {
                             "format": "html",
                             "label": "Download HTML"
@@ -44,7 +48,7 @@
                     },
                     {
                         "command": "notebook:export-to-format", 
-                        "rank": 7,
+                        "rank": 8,
                         "args": {
                             "format": "ipynb",
                             "label": "Download IPYNB"
