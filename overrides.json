@@ -40,7 +40,7 @@
                 "rank": 1
             },
             {
-                "name": Download HTML",
+                "name": "Download HTML",
                 "command": "notebook:export-to-format", 
                 "rank": 6,
                 "args": {
@@ -49,7 +49,7 @@
                 }
             },
             {
-                "name": Download IPYNB", 
+                "name": "Download IPYNB", 
                 "command": "notebook:export-to-format", 
                 "rank": 7,
                 "args": {
