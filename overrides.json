@@ -56,13 +56,6 @@
                     "format": "ipynb",
                     "label": "Download IPYNB"
                 }
-            },
-            {
-                "disabled": true,
-                "id": "jp-mainmenu-git",
-                "label": "Git",
-                "mnemonic": -1,
-                "rank": 60
             }
         ]
     }
