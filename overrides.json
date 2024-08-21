@@ -8,5 +8,44 @@
         "cpu": {
             "label": "CPU: "
         }
+    },
+    "@jupyterlab/apputils-extension:notification": {
+        "checkForUpdates": false,
+        "doNotDisturbMode": true,
+        "fetchNews": "false"
+    }, 
+    "@jupyterlab/mainmenu-extension:plugin": {
+        "menus": [
+            {
+                "disabled": false,
+                "id": "jp-mainmenu-file",
+                "items": [
+                    {
+                        "command": "docmanager:download",
+                        "rank": 6,
+                        "disabled": true
+                    },
+                    {
+                        "type": "submenu",
+                        "disabled": true,
+                        "rank": 10,
+                        "submenu": {
+                            "id": "jp-mainmenu-file-notebookexport",
+                            "label": "Save and Export Notebook As"
+                        }
+                    }
+                ],
+                "label": "File",
+                "mnemonic": -1,
+                "rank": 1
+            },
+            {
+                "disabled": true,
+                "id": "jp-mainmenu-git",
+                "label": "Git",
+                "mnemonic": -1,
+                "rank": 60
+            }
+        ]
     }
 }
