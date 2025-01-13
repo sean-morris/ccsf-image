@@ -38,6 +38,7 @@ dependencies:
   - html5lib==1.*
   - sympy==1.13.*
   - plotly==5.23.*
+  - nbdime==4.0.*
   # Packages not on conda
   - pip:
     - jupyterlab-spellchecker==0.8.*
