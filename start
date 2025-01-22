@@ -1,0 +1,25 @@
+#!/bin/bash
+
+### Update jupyter_nbconvert_config.py ###
+# https://nbconvert.readthedocs.io/en/latest/config_options.html?highlight=embed+images#exporter-options
+
+# Define the configuration file path
+CONFIG_FILE="$(jupyter --config-dir)/jupyter_nbconvert_config.py"
+
+# Create the configuration file if it doesn't exist
+if [[ ! -f "$CONFIG_FILE" ]]; then
+    echo "Configuration file not found. Creating $CONFIG_FILE..."
+    jupyter nbconvert --generate-config
+fi
+
+# Check if the embed_images setting is already present
+if grep -q "c\.HTMLExporter\.embed_images" "$CONFIG_FILE"; then
+    echo "Setting 'c.HTMLExporter.embed_images' found. Modifying it to True..."
+    sed -i "s/^c\.HTMLExporter\.embed_images\s*=.*/c.HTMLExporter.embed_images = True/" "$CONFIG_FILE"
+else
+    echo "Setting 'c.HTMLExporter.embed_images' not found. Adding it to the configuration..."
+    echo "c.HTMLExporter.embed_images = True" >> "$CONFIG_FILE"
+fi
+
+echo "Configuration updated successfully."
+exec "$@"
