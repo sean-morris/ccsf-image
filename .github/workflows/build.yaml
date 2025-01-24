@@ -16,12 +16,7 @@ jobs:
     - name: Update pip
       run: |
         python -m pip install --upgrade pip
-    - name: imbed html images
-      run: |
-        jupyter nbconvert --generate-config
-        # Add HTMLExporter configuration to jupyter_nbconvert_config.py
-        CON_DIR=$(jupyter --config-dir)
-        echo "c.HTMLExporter.embed_images = True" >> "$CON_DIR/jupyter_nbconvert_config.py"
+
     - name: Update jupyter dependencies with repo2docker
       uses: jupyterhub/repo2docker-action@master
       with:
