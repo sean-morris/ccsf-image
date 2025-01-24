@@ -6,3 +6,9 @@ playwright install chromium
 
 mkdir -p /srv/conda/envs/notebook/share/jupyter/lab/settings
 cp -u overrides.json /srv/conda/envs/notebook/share/jupyter/lab/settings
+
+
+jupyter nbconvert --generate-config
+# Add HTMLExporter configuration to jupyter_nbconvert_config.py
+CON_DIR=$(jupyter --config-dir)
+echo "c.HTMLExporter.embed_images = True" >> "$CON_DIR/jupyter_nbconvert_config.py"
