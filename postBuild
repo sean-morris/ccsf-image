@@ -1,5 +1,4 @@
 #!/bin/bash -l
-set -euo pipefail
 
 # Enable nbgitpuller
 jupyter server extension enable --sys-prefix nbgitpuller
@@ -10,5 +9,6 @@ playwright install chromium
 mkdir -p /srv/conda/envs/notebook/share/jupyter/lab/settings
 cp -u overrides.json /srv/conda/envs/notebook/share/jupyter/lab/settings
 
-# Update HTML Export Configuration
-cp -u curl -o nbconvert_config.py /etc/jupyter
+# Update System-Wide nbconvert Configuration
+mkdir -p /etc/jupyter
+cp -u nbconvert_config.py /etc/jupyter
