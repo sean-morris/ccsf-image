@@ -6,7 +6,3 @@ jupyter server extension enable --sys-prefix nbgitpuller
 # Update Jupyter Lab Configuration
 mkdir -p /srv/conda/envs/notebook/share/jupyter/lab/settings
 cp -u overrides.json /srv/conda/envs/notebook/share/jupyter/lab/settings
-
-# Update System-Wide nbconvert Configuration
-sudo mkdir -p /etc/jupyter
-sudo cp -u nbconvert_config.py /etc/jupyter
