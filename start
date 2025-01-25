@@ -1,9 +1,14 @@
 #!/bin/bash
 
+# Stop execution on any error
+set -e
+
+# Clear the ~/.jupyter directory and generate a config file
 rm -rf ~/.jupyter
 jupyter-lab --generate-config
-cd ~/.jupyter
-curl -o jupyter_lab_config.py https://raw.githubusercontent.com/ccsf-math/jupyterhub/main/nbconvert_config.py
-cd ~
 
+# Download the config file from GitHub into the correct directory
+curl -o ~/.jupyter/jupyter_lab_config.py https://raw.githubusercontent.com/ccsf-math/jupyterhub/main/nbconvert_config.py
+
+# Ensure the command passed to the script is executed correctly
 exec "$@"
