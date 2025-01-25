@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ~/.jupyter
+curl -o jupyter_lab_config.py https://raw.githubusercontent.com/ccsf-math/jupyterhub/main/nbconvert_config.py
