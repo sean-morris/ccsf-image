@@ -3,8 +3,6 @@
 # Enable nbgitpuller
 jupyter server extension enable --sys-prefix nbgitpuller
 
-playwright install chromium
-
 # Update Jupyter Lab Configuration
 mkdir -p /srv/conda/envs/notebook/share/jupyter/lab/settings
 cp -u overrides.json /srv/conda/envs/notebook/share/jupyter/lab/settings
