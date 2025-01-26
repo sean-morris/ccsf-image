@@ -8,5 +8,5 @@ jupyter server extension enable --sys-prefix nbgitpuller
 mkdir -p /srv/conda/envs/notebook/share/jupyter/lab/settings
 cp -u overrides.json /srv/conda/envs/notebook/share/jupyter/lab/settings
 
-mkdir -p ~/.jupyter
-cp -u jupyter_lab_config.py ~/.jupyter
+mkdir -p /etc/jupyter
+cp -u jupyter_lab_config.py /etc/jupyter
