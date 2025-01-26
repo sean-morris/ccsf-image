@@ -1,13 +1,13 @@
 channels:
   - conda-forge
 dependencies:
-  - pip==24.0.*
+  - pip==25.0.*
   - python==3.11.*
   - jupyter-server-proxy==4.3.*
-  - jupyterhub==5.0.*
-  - jupyterhub-singleuser==5.0.*
-  - jupyterlab==4.2.*
-  - notebook==7.2.*
+  - jupyterhub==5.1.*
+  - jupyterhub-singleuser==5.1.*
+  - jupyterlab==4.3.*
+  - notebook==7.3.*
   - gh==2.53.*
   - nbgitpuller==1.2.*
   - jupyter-resource-usage==1.0.*
@@ -43,4 +43,3 @@ dependencies:
   - pip:
     - jupyterlab-spellchecker==0.8.*
     - jupyter-archive==3.4.*
-    - playwright==1.45.*
