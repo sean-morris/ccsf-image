@@ -8,8 +8,5 @@ jupyter server extension enable --sys-prefix nbgitpuller
 mkdir -p /srv/conda/envs/notebook/share/jupyter/lab/settings
 cp -u overrides.json /srv/conda/envs/notebook/share/jupyter/lab/settings
 
-# Ensure the ~/.jupyter directory exists
-mkdir -p ~/.jupyter
-
 # Download the config file from GitHub into the correct directory, replacing if it exists
-curl -fsSL -o ~/.jupyter/jupyter_lab_config.py https://raw.githubusercontent.com/ccsf-math/jupyterhub/main/jupyter_lab_config.py
+cp -u jupyter_lab_config.py /srv/conda/envs/notebook/etc/jupyter
