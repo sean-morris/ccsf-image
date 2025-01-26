@@ -3,8 +3,11 @@
 # Stop execution on any error
 set -e
 
-# Download the config file from GitHub into the correct directory
-curl -o ~/.jupyter/jupyter_lab_config.py https://raw.githubusercontent.com/ccsf-math/jupyterhub/main/nbconvert_config.py
+# Ensure the ~/.jupyter directory exists
+mkdir -p ~/.jupyter
+
+# Download the config file from GitHub into the correct directory, replacing if it exists
+curl -fsSL -o ~/.jupyter/jupyter_lab_config.py https://raw.githubusercontent.com/ccsf-math/jupyterhub/main/nbconvert_config.py
 
 # Ensure the command passed to the script is executed correctly
 exec "$@"
