@@ -7,7 +7,7 @@ set -e
 mkdir -p ~/.jupyter
 
 # Download the config file from GitHub into the correct directory, replacing if it exists
-curl -fsSL -o ~/.jupyter/jupyter_lab_config.py https://raw.githubusercontent.com/ccsf-math/jupyterhub/main/nbconvert_config.py
+curl -fsSL -o ~/.jupyter/jupyter_lab_config.py https://raw.githubusercontent.com/ccsf-math/jupyterhub/main/jupyter_lab_config.py
 
 # Ensure the command passed to the script is executed correctly
 exec "$@"
