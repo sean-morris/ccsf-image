@@ -1,4 +1,5 @@
 # Store in ~/.jupyter/ for user nbconvert configuration
+# Store in /srv/conda/envs/notebook/etc/jupyter for system-wide nbconvert configuration
 
 c = get_config()
 
