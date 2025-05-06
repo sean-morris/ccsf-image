@@ -10,3 +10,6 @@ cp -u overrides.json /srv/conda/envs/notebook/share/jupyter/lab/settings
 
 mkdir -p /srv/conda/envs/notebook/etc/jupyter
 cp -u jupyter_lab_config.py /srv/conda/envs/notebook/etc/jupyter
+
+# Update activate-conda.sh
+cp -u activate-conda.sh /etc/profile.d/activate-conda.sh
