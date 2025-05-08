@@ -1,7 +1,6 @@
 channels:
   - conda-forge
 dependencies:
-  - pydantic<2
   - pip==24.0.*
   - python==3.11.*
   - jupyter-server-proxy==4.3.*
@@ -44,4 +43,3 @@ dependencies:
   - pip:
     - jupyterlab-spellchecker==0.8.*
     - jupyter-archive==3.4.*
-    - python-on-whales<=0.48.0
