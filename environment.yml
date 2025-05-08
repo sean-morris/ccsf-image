@@ -1,7 +1,7 @@
 channels:
   - conda-forge
 dependencies:
-  - docker-cli==28.1.*
+  - docker-py
   - pip==24.0.*
   - python==3.11.*
   - jupyter-server-proxy==4.3.*
