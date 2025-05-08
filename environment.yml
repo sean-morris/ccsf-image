@@ -43,3 +43,4 @@ dependencies:
   - pip:
     - jupyterlab-spellchecker==0.8.*
     - jupyter-archive==3.4.*
+    - python-on-whales<=0.48.0
