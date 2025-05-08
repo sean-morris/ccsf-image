@@ -4,8 +4,8 @@ dependencies:
   - pip==24.0.*
   - python==3.11.*
   - jupyter-server-proxy==4.3.*
-  - jupyterhub==5.0.*
-  - jupyterhub-singleuser==5.0.*
+  - jupyterhub==5.3.*
+  - jupyterhub-singleuser==5.3.*
   - jupyterlab==4.2.*
   - notebook==7.2.*
   - gh==2.53.*
