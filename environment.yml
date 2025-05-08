@@ -15,7 +15,7 @@ dependencies:
   - nbconvert[webpdf]
   - nbconvert[qtpdf]
   - nbconvert[qtpng]
-  - otter-grader==5.5.*
+  - otter-grader=6.1.*
   - datascience==0.17.*
   - numpy==2.0.*
   - matplotlib==3.9.*
