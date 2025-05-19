@@ -2,45 +2,44 @@ channels:
   - conda-forge
 dependencies:
   - docker-py
-  - pip==24.0.*
-  - python==3.11.*
-  - jupyter-server-proxy==4.3.*
-  - jupyterhub==5.3.*
-  - jupyterhub-singleuser==5.3.*
-  - jupyterlab==4.2.*
-  - notebook==7.2.*
-  - gh==2.53.*
-  - nbgitpuller==1.2.*
-  - jupyter-resource-usage==1.0.*
-  - nbconvert==7.16.*
+  - pip==24.0
+  - python==3.11.9
+  - jupyter-server-proxy==4.3.0
+  - jupyterhub==5.0.0
+  - jupyterhub-singleuser==5.0.0
+  - jupyterlab==4.2.5
+  - notebook==7.2.2
+  - gh==2.53.0
+  - nbgitpuller==1.2.1
+  - jupyter-resource-usage==1.0.2
+  - nbconvert==7.16.5
   - nbconvert[webpdf]
   - nbconvert[qtpdf]
   - nbconvert[qtpng]
-  - otter-grader=6.1.*
-  - datascience==0.17.*
-  - numpy==2.0.*
-  - matplotlib==3.9.*
-  - folium==0.17.*
-  - scipy==1.14.*
-  - pandas==2.2.*
-  - scikit-learn==1.5.*
-  - scikit-image==0.24.*
-  - statsmodels==0.14.*
-  - seaborn==0.13.*
-  - sympy==1.13.*
-  - networkx==3.3.*
-  - nltk==3.8.*
-  - jupyterlab_widgets==3.0.*
-  - ipywidgets==8.1.*
-  - ipympl==0.9.*
-  - requests==2.32.*
-  - httpx==0.27.*
-  - beautifulsoup4==4.12.*
-  - html5lib==1.*
-  - sympy==1.13.*
-  - plotly==5.23.*
-  - nbdime==4.0.*
+  - otter-grader=5.5.0
+  - datascience==0.17.6
+  - numpy==2.0.2
+  - matplotlib==3.9.4
+  - folium==0.17.0
+  - scipy==1.14.1
+  - pandas==2.2.3
+  - scikit-learn==1.5.2
+  - scikit-image==0.24.0
+  - statsmodels==0.14.4
+  - seaborn==0.13.2
+  - sympy==1.13.3
+  - networkx==3.3
+  - nltk==3.8.2
+  - jupyterlab_widgets==3.0.13
+  - ipywidgets==8.1.5
+  - ipympl==0.9.6
+  - requests==2.32.3
+  - httpx==0.27.2
+  - beautifulsoup4==4.12.3
+  - html5lib==1.1
+  - plotly==5.23.0
+  - nbdime==4.0.2
   # Packages not on conda
   - pip:
-    - jupyterlab-spellchecker==0.8.*
-    - jupyter-archive==3.4.*
+    - jupyterlab-spellchecker==0.8.4
+    - jupyter-archive==3.4.0
