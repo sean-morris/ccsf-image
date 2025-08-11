@@ -4,6 +4,8 @@
 set -euo pipefail
 
 # installing chromium browser to enable webpdf conversion using nbconvert
+pip install playwright
+playwright install --with-deps
 export PLAYWRIGHT_BROWSERS_PATH=${CONDA_DIR}
 playwright install chromium
 
