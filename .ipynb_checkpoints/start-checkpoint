@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Derived from https://github.com/cal-icor/base-user-image/blob/main/start
+
+export PLAYWRIGHT_BROWSERS_PATH=${CONDA_DIR}
+exec "$@"
