@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Derived from https://github.com/cal-icor/base-user-image/blob/main/postBuild
 
-# set -euo pipefail ## Removed to see if this is causing the issue
+set -euo pipefail
 
 # Enable nbgitpuller
 jupyter server extension enable --sys-prefix nbgitpuller
