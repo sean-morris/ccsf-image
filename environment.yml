@@ -29,6 +29,9 @@ dependencies:
   
   # nbconvert core
   - nbconvert=7.16
+  - nbconvert[webpdf]
+  - nbconvert[qtpdf]
+  - nbconvert[qtpng]
 
   # MATH 108 and STAT C1000 Packages
   - numpy=2.3
@@ -55,9 +58,3 @@ dependencies:
   - code-server=4.102
   - jupyter-vscode-proxy=0.6
   - jupyter-server-proxy=4.4
-
-  # pip-installed packages
-  - pip:
-      - nbconvert[webpdf]
-      - nbconvert[qtpdf]
-      - nbconvert[qtpng]
