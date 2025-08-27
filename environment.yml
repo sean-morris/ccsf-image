@@ -28,10 +28,7 @@ dependencies:
   - jupyter-archive=3.4
   
   # nbconvert core
-  - nbconvert=7.16
-  - nbconvert[webpdf]
-  - nbconvert[qtpdf]
-  - nbconvert[qtpng]
+  - nbconvert[webpdf]==7.16
 
   # MATH 108 and STAT C1000 Packages
   - numpy=2.3
