@@ -50,8 +50,3 @@ dependencies:
   - beautifulsoup4=4.13
   - html5lib=1.1
   - jupysql=0.11
-
-  # vscode
-  - code-server=4.102
-  - jupyter-vscode-proxy=0.6
-  - jupyter-server-proxy=4.4
