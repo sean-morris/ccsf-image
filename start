@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# Derived from https://github.com/cal-icor/base-user-image/blob/main/start
-
-exec "$@"
