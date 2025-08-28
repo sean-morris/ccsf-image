@@ -51,4 +51,3 @@ dependencies:
     - datascience==0.18
     - nbconvert[webpdf]==7.16
     - otter-grader==6.1
-    - playwright==1.51
