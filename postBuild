@@ -3,6 +3,9 @@
 
 set -euo pipefail
 
+# Install Playwright browsers
+python -m playwright install --with-deps chromium firefox webkit
+
 # Enable nbgitpuller
 jupyter server extension enable --sys-prefix nbgitpuller
 
