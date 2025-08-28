@@ -3,12 +3,6 @@ set -euo pipefail
 
 : "${CONDA_DIR:?CONDA_DIR not set}"
 
-# Ensure Playwright installs browsers into Conda path
-export PLAYWRIGHT_BROWSERS_PATH=${CONDA_DIR}
-
-# Install browsers (Chromium needed for nbconvert webpdf)
-python -m playwright install --with-deps chromium firefox webkit
-
 # Enable nbgitpuller
 jupyter server extension enable --sys-prefix nbgitpuller
 
