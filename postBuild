@@ -1,7 +1,12 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Prevent continuing when CONDA_DIR is undefined
 : "${CONDA_DIR:?CONDA_DIR not set}"
+
+# Supress" Activating profile: /srv/conda/etc/profile.d/conda.sh
+export BASH_SILENCE_DEPRECATION_WARNING=1
+source /srv/conda/etc/profile.d/conda.sh > /dev/null 2>&1
 
 # Enable nbgitpuller
 jupyter server extension enable --sys-prefix nbgitpuller
