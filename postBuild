@@ -6,6 +6,10 @@ set -euo pipefail
 # Install Playwright browsers
 python -m playwright install --with-deps chromium firefox webkit
 
+# installing chromium browser to enable webpdf conversion using nbconvert
+export PLAYWRIGHT_BROWSERS_PATH=${CONDA_DIR}
+playwright install chromium
+
 # Enable nbgitpuller
 jupyter server extension enable --sys-prefix nbgitpuller
 
