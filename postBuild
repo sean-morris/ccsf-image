@@ -1,14 +1,13 @@
 #!/usr/bin/env bash
-# Derived from https://github.com/cal-icor/base-user-image/blob/main/postBuild
-
 set -euo pipefail
 
-# Install Playwright browsers
-python -m playwright install --with-deps chromium firefox webkit
+: "${CONDA_DIR:?CONDA_DIR not set}"
 
-# installing chromium browser to enable webpdf conversion using nbconvert
+# Ensure Playwright installs browsers into Conda path
 export PLAYWRIGHT_BROWSERS_PATH=${CONDA_DIR}
-playwright install chromium
+
+# Install browsers (Chromium needed for nbconvert webpdf)
+python -m playwright install --with-deps chromium firefox webkit
 
 # Enable nbgitpuller
 jupyter server extension enable --sys-prefix nbgitpuller
