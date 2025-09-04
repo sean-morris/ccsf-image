@@ -49,5 +49,5 @@ dependencies:
   # pip installed packages, conda is preferred
   - pip:
     - datascience==0.18
-    - nbconvert[webpdf]==7.16
+    - nbconvert[webpdf]==7.16.6
     - otter-grader==6.1
