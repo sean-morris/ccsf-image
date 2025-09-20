@@ -60,5 +60,15 @@
                 "rank": 1
             }
         ]
+    },
+    "@jupyterlab/notebook-extension:tracker": {
+        "codeCellConfig": {
+            "lineNumbers": true
+        }
+    },
+    "@jupyterlab/fileeditor-extension:plugin": {
+        "editorConfig": {
+            "lineNumbers": true
+        }
     }
 }
